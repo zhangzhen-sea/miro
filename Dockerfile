@@ -1,1 +1,1 @@
-FROM rancher/k3s:v1.29.0-k3s1
+FROM k0sproject/k0s:v1.29.1-k0s.0
