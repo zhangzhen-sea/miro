@@ -1,1 +1,1 @@
-FROM registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+FROM rancher/k3s:v1.29.0-k3s1
