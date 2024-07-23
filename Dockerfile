@@ -1,1 +1,1 @@
-FROM apache/rocketmq:5.3.0
+FROM apache/rocketmq:5.2.0
