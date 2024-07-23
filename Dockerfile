@@ -1,1 +1,1 @@
-FROM k0sproject/k0s:v1.29.1-k0s.0
+FROM nacos/nacos-server:2.4.0
