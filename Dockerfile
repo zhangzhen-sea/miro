@@ -1,1 +1,1 @@
-FROM nacos/nacos-server:v2.4.0.1
+FROM apache/rocketmq:5.3.0
