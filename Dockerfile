@@ -3,4 +3,5 @@
 #FROM apacherocketmq/rocketmq-dashboard:latest
 #FROM openjdk:8
 #FROM arm64v8/nginx:1.13
-FROM arm64v8/openjdk:8
+#FROM arm64v8/openjdk:8
+FROM arm64v8/oraclejava:8
