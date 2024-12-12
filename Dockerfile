@@ -5,4 +5,5 @@
 #FROM arm64v8/nginx:1.13
 #FROM arm64v8/openjdk:8
 #FROM buildpack-deps:stretch-scm
-FROM arm64v8/centos:7
+#FROM arm64v8/centos:7
+FROM kubeedge/cloudcore:v1.19.1
