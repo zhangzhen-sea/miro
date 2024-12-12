@@ -6,4 +6,4 @@
 #FROM arm64v8/openjdk:8
 #FROM buildpack-deps:stretch-scm
 #FROM arm64v8/centos:7
-FROM kubeedge/cloudcore:v1.16.1
+FROM eclipse-mosquitto:1.6.15
