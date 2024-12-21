@@ -6,4 +6,5 @@
 #FROM arm64v8/openjdk:8
 #FROM buildpack-deps:stretch-scm
 #FROM arm64v8/centos:7
-FROM eclipse-mosquitto:1.6.15
+#FROM eclipse-mosquitto:1.6.15
+FROM golang:1.23.1
