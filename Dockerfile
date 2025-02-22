@@ -11,4 +11,5 @@
 #FROM gcr.io/distroless/static:latest-amd64
 #docker.io/library/golang:1.21.11-bullseye
 #FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.0
-FROM chronolaw/nfs-subdir-external-provisioner:v4.0.2
+#FROM chronolaw/nfs-subdir-external-provisioner:v4.0.2
+FROM kubeedge/build-tools:1.21.11-ke1
