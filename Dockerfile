@@ -13,4 +13,5 @@
 #FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.0
 #FROM chronolaw/nfs-subdir-external-provisioner:v4.0.2
 #FROM kubeedge/build-tools:1.21.11-ke1
-FROM registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3
+#FROM registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3
+FROM registry.k8s.io/kube-apiserver:v1.29.14
