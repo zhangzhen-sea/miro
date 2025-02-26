@@ -16,4 +16,5 @@
 #FROM registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3
 #FROM registry.k8s.io/kube-apiserver:v1.29.14
 #FROM registry.k8s.io/kube-controller-manager:v1.29.14
-FROM registry.k8s.io/kube-scheduler:v1.29.14
+#FROM registry.k8s.io/kube-scheduler:v1.29.14
+FROM registry.k8s.io/kube-proxy:v1.29.14
