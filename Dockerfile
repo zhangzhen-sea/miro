@@ -14,8 +14,8 @@
 #FROM chronolaw/nfs-subdir-external-provisioner:v4.0.2
 #FROM kubeedge/build-tools:1.21.11-ke1
 #FROM registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3
-FROM registry.k8s.io/kube-apiserver:v1.29.14
-#FROM registry.k8s.io/kube-controller-manager:v1.29.14
+#FROM registry.k8s.io/kube-apiserver:v1.29.14
+FROM registry.k8s.io/kube-controller-manager:v1.29.14
 #FROM registry.k8s.io/kube-scheduler:v1.29.14
 #FROM registry.k8s.io/kube-proxy:v1.29.14
 #FROM registry.k8s.io/coredns/coredns:v1.11.1
