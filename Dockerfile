@@ -23,4 +23,12 @@
 #FROM registry.k8s.io/kube-proxy:v1.32.3
 #FROM registry.k8s.io/coredns/coredns:v1.11.3
 #FROM registry.k8s.io/pause:3.10
-FROM registry.k8s.io/etcd:3.5.16-0
+#FROM registry.k8s.io/etcd:3.5.16-0
+
+FROM registry.k8s.io/kube-apiserver:v1.31.8
+#FROM registry.k8s.io/kube-controller-manager:v1.31.8
+#FROM registry.k8s.io/kube-scheduler:v1.31.8
+#FROM registry.k8s.io/kube-proxy:v1.31.8
+#FROM registry.k8s.io/coredns/coredns:v1.11.3
+#FROM registry.k8s.io/pause:3.10
+#FROM registry.k8s.io/etcd:3.5.15-0
