@@ -1,7 +1,7 @@
 #FROM apache/rocketmq:5.3.0
 #FROM nacos/nacos-server:v2.4.1
 #FROM apacherocketmq/rocketmq-dashboard:latest
-FROM openjdk:8
+#FROM openjdk:8
 #FROM arm64v8/nginx:1.13
 #FROM arm64v8/openjdk:8
 #FROM buildpack-deps:stretch-scm
@@ -14,7 +14,7 @@ FROM openjdk:8
 #FROM chronolaw/nfs-subdir-external-provisioner:v4.0.2
 #FROM kubeedge/build-tools:1.21.11-ke1
 #FROM registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3
-#FROM kindest/node:v1.29.14
+FROM kindest/node:v1.32.2
 #FROM registry.k8s.io/kube-proxy:v1.29.0
 
 #FROM registry.k8s.io/kube-apiserver:v1.31.8
