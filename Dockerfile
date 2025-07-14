@@ -8,14 +8,14 @@
 #FROM arm64v8/centos:7
 #FROM eclipse-mosquitto:1.6.15
 #FROM golang:1.23.1
-FROM golang:1.21.11-alpine
+#FROM golang:1.21.11-alpine
 #FROM gcr.io/distroless/static:latest-amd64
 #docker.io/library/golang:1.21.11-bullseye
 #FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.0
 #FROM chronolaw/nfs-subdir-external-provisioner:v4.0.2
 #FROM kubeedge/build-tools:1.21.11-ke1
 #FROM registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3
-#FROM kindest/node:v1.32.2
+FROM kindest/node:v1.29.0
 #FROM registry.k8s.io/kube-proxy:v1.29.0
 
 #FROM registry.k8s.io/kube-apiserver:v1.31.8
