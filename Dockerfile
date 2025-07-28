@@ -43,5 +43,5 @@
 #FROM registry.k8s.io/etcd:3.5.16-0
 #FROM registry.k8s.io/kube-proxy:v1.33.1
 
-node:18-alpine
+FROM node:18-alpine
 
