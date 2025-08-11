@@ -44,5 +44,6 @@
 #FROM registry.k8s.io/kube-proxy:v1.33.1
 
 #FROM node:20-alpine
-FROM node:20.19.1
+#FROM node:20.19.1
+docker pull --platform linux/arm64/v8 openjdk:8
 
