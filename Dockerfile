@@ -55,5 +55,5 @@
 #FROM registry.k8s.io/etcd:3.5.16-0
 
 #FROM docker.io/calico/kube-controllers:v3.30.1
-FROM docker.io/calico/cni:v3.30.1
+FROM calico/cni:v3.30.1
 #FROM docker.io/calico/typha:v3.30.1
