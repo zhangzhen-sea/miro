@@ -52,5 +52,6 @@
 #FROM registry.k8s.io/kube-proxy:v1.32.9
 #FROM registry.k8s.io/coredns/coredns:v1.11.3
 #FROM registry.k8s.io/pause:3.10
-FROM registry.k8s.io/etcd:3.5.16-0
+#FROM registry.k8s.io/etcd:3.5.16-0
+FROM docker.io/calico/kube-controllers:v3.30.1
 
