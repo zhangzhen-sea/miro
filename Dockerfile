@@ -46,7 +46,7 @@
 #FROM node:20-alpine
 #FROM node:20.19.1
 #docker pull --platform linux/arm64/v8 openjdk:8
-#FROM registry.k8s.io/kube-apiserver:v1.32.9
+FROM registry.k8s.io/kube-apiserver:v1.32.8
 #FROM registry.k8s.io/kube-controller-manager:v1.32.9
 #FROM registry.k8s.io/kube-scheduler:v1.32.9
 #FROM registry.k8s.io/kube-proxy:v1.32.9
@@ -55,5 +55,5 @@
 #FROM registry.k8s.io/etcd:3.5.16-0
 
 #FROM docker.io/calico/kube-controllers:v3.30.1
-FROM calico/cni:v3.30.1
+#FROM calico/cni:v3.30.1
 #FROM docker.io/calico/typha:v3.30.1
