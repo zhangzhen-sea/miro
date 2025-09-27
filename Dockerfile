@@ -46,10 +46,10 @@
 #FROM node:20-alpine
 #FROM node:20.19.1
 #docker pull --platform linux/arm64/v8 openjdk:8
-FROM registry.k8s.io/kube-apiserver:v1.32.8
+#FROM registry.k8s.io/kube-apiserver:v1.32.8
 #FROM registry.k8s.io/kube-controller-manager:v1.32.9
 #FROM registry.k8s.io/kube-scheduler:v1.32.9
-#FROM registry.k8s.io/kube-proxy:v1.32.9
+FROM registry.k8s.io/kube-proxy:v1.32.6
 #FROM registry.k8s.io/coredns/coredns:v1.11.3
 #FROM registry.k8s.io/pause:3.10
 #FROM registry.k8s.io/etcd:3.5.16-0
