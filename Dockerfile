@@ -57,4 +57,5 @@
 #FROM docker.io/calico/kube-controllers:v3.30.1
 #FROM calico/cni:v3.30.1
 #FROM docker.io/calico/typha:v3.30.1
-FROM seataio/seata-server:2.5.0
+#FROM seataio/seata-server:2.5.0
+FROM zookeeper:3.8.5
