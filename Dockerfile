@@ -59,4 +59,5 @@
 #FROM docker.io/calico/typha:v3.30.1
 #FROM seataio/seata-server:2.5.0
 #FROM zookeeper:3.8.5
-FROM osixia/keepalived:2.3.3
+#FROM osixia/keepalived:2.3.3
+FROM mysql:5.7.28
