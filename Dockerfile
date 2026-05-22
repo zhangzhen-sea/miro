@@ -64,4 +64,5 @@
 #FROM quay.io/cephcsi/cephcsi:v3.16.2
 #FROM registry.k8s.io/sig-storage/csi-provisioner:v6.0.0
 #FROM registry.k8s.io/sig-storage/csi-attacher:v4.10.0
-FROM registry.k8s.io/sig-storage/csi-resizer:v2.0.0
+#FROM registry.k8s.io/sig-storage/csi-resizer:v2.0.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0
