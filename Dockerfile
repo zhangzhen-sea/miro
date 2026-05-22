@@ -62,4 +62,5 @@
 #FROM osixia/keepalived:2.3.3
 #FROM mysql:5.7.28
 #FROM quay.io/cephcsi/cephcsi:v3.16.2
-FROM registry.k8s.io/sig-storage/csi-provisioner:v6.0.0
+#FROM registry.k8s.io/sig-storage/csi-provisioner:v6.0.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.10.0
